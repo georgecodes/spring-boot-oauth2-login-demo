@@ -16,7 +16,6 @@ public class WebConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        // @formatter:off
         http
 
                 .authorizeRequests(a -> a

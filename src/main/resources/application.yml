@@ -5,4 +5,5 @@ spring:
         registration:
           github:
             clientId:
-            clientSecret: 
+            clientSecret:
+            redirect-uri: 

@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  rproxy:
+    build:
+      context: ./proxy
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"

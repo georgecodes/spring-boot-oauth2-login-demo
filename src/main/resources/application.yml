@@ -6,4 +6,4 @@ spring:
           github:
             clientId:
             clientSecret:
-            redirect-uri: 
+            redirect-uri:
